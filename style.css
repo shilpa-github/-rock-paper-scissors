@@ -1,0 +1,61 @@
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container Box */
+  .container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .container:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Heading */
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Button Hover Effect */
+  button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
+  
+  /* Result Display */
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
